@@ -1,0 +1,7 @@
+plugins:
+  influx:
+    database: wifimon
+    host: influx.example.com
+  mongodb:
+    uri: mongodb://user:password@mongo.example.com
+    database: wifimon
