@@ -18,8 +18,8 @@ I wanted to monitor WAP availability for one that is a bit flakey, figured I'd o
 Admittedly not the best plugin interface around. To create a plugin:
 * Create a python file in the `wifimon/plugins` directory
 * Define the `WifimonPlugin` class
-* * `WifimonPlugin.__init__` called on class creation
-* * `WifimonPlugin.upload_results` gets a list of data from script
+  * `WifimonPlugin.__init__` called on class creation
+  * `WifimonPlugin.upload_results` gets a list of data from script
 
 ## TODO
 * Add tests
