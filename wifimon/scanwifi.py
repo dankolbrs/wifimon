@@ -16,7 +16,8 @@ def get_config():
     return config
 
 def get_plugins():
-    plugin_folder = os.path.join(os.getcwd(), "wifimon/plugins")
+    install_folder = os.path.dirname(os.path.abspath(__file__))
+    plugin_folder = os.path.join(install_folder, "plugins")
     found_plugins = []
     plugins = os.listdir(plugin_folder)
     for pluginfile in plugins:

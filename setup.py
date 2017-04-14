@@ -6,7 +6,9 @@ setup(
     description='Script to report available WAP strengths and qualities',
     author='Dan Kolb',
     author_email='dan@dankolb.net',
+    include_package_data=True,
     packages=['wifimon'],
+    package_data={'wifimon': ['plugins/*.py']},
     url='https://github.com/dankolbrs/wifimon.git',
     install_requires=open('requirements.txt').read(),
         classifiers=[
